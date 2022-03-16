@@ -55,13 +55,13 @@ class TrollScammer:
     def print_query_information(self):
         print(Fore.GREEN+"""HOLA XD"""+Style.RESET_ALL)
         print("-----------------------------------------------")
-        print(Fore.GREEN+"target-addr: " + Style.RESET_ALL + self.bad_url)
+        print(Fore.GREEN+"OBJETIVO: " + Style.RESET_ALL + self.bad_url)
         if self.bad_url_method == 1:
-            print(Fore.GREEN+"target-method:" + Style.RESET_ALL + " GET")
+            print(Fore.GREEN+"METODO:" + Style.RESET_ALL + " GET")
         else:
-            print(Fore.GREEN+"target-method:" + Style.RESET_ALL + " POST")
-        print(Fore.GREEN+"target-username-name: " + Style.RESET_ALL + self.bad_url_username_name)
-        print(Fore.GREEN+"target-password-name: " + Style.RESET_ALL + self.bad_url_password_name)
+            print(Fore.GREEN+"METODO:" + Style.RESET_ALL + " POST")
+        print(Fore.GREEN+"USERNAME OBJETIVO: " + Style.RESET_ALL + self.bad_url_username_name)
+        print(Fore.GREEN+"PASSWORD OBJETIVO: " + Style.RESET_ALL + self.bad_url_password_name)
         print("-----------------------------------------------")
 
 ################################################################################
